@@ -1,0 +1,67 @@
+{
+  "header": "Indigenous animals in Sri Lanka.",
+  "discription": "Sri Lanka is known for its rich biodiversity and is home to several indigenous animal species. Here are some notable indigenous animals found in Sri Lanka :",
+  "animals_01": [
+    {
+      "image": "Images/jungle fowl.jpg",
+      "alt": "JUngle fowl image"
+    },
+    {
+      "image": "Images/Black monkey.jpg",
+      "alt": "Purple-faced Langur image"
+    },
+    {
+      "image": "Images/sri lankan leophard.jpg",
+      "alt": "Sri lankan leophard image"
+    },
+
+    {
+      "image": "Images/walaha.jpg",
+      "alt": "sloth bear image"
+    }
+  ],
+  "animals_02": [
+    {
+      "image": "Images/Ceylon Spurfowl.jpeg",
+      "alt": "Ceylon Spurfowl image"
+    },
+    {
+      "image": "Images/Fan-throated Lizar.jpg",
+      "alt": "Fan-throated Lizar image"
+    },
+    {
+      "image": "Images/Spot-winged Thrush.jpeg",
+      "alt": "pot-winged Thrush  image"
+    }
+  ],
+  "animals_03": [
+    {
+      "image": "Images/Yellow-billed_babbler_(Argya_affinis_taprobanus).jpg",
+      "alt": "Ungle fowl image"
+    },
+    {
+      "image": "Images/loris.jpg",
+      "alt": "Loris image"
+    },
+    {
+      "image": "Images/cobra.webp",
+      "alt": "Ceylon Spitting Cobra image"
+    },
+    {
+      "image": "Images/bungaru.jpg",
+      "alt": "Ceylon Krait image"
+    }
+  ],
+  "national_parks": [
+    {
+      "name": "Yala National Park",
+      "link": "Yala.html",
+      "button_text": "Visit Yala"
+    },
+    {
+      "name": "Wilpaththuwa National Park",
+      "link": "Wilpaththuwa.html",
+      "button_text": "Visit Wilpaththuwa"
+    }
+  ]
+}

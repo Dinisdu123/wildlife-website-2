@@ -1,0 +1,48 @@
+{
+  "intro": {
+    "heading": "A Journey into Biodiversity",
+    "paragraph": "Embark on an immersive adventure into the captivating realms of Sri Lankan wildlife, where the island's diverse ecosystems unfold like chapters in a nature-filled novel. From the emerald expanses of dense rainforests to the untouched beauty of coastal habitats, Sri Lanka is a tapestry of life, featuring a plethora of species, many of which are found nowhere else on Earth. Our website invites you to delve into the vibrant and intricate web of life that thrives within this tropical haven. Experience the unique sights and sounds, and discover the untold stories of survival and adaptation that shape Sri Lanka's status as a biodiversity hotspot. Join us as we unveil the wonders that make Sri Lankan wildlife a sanctuary of unparalleled beauty and ecological significance."
+  },
+  "why_sri_lanka": {
+    "heading": "Why Sri Lanka?",
+    "paragraph": "Here are some of our ideas for great holidays focussed on wildlife in Sri Lanka."
+  },
+  "safari_options": [
+    {
+      "image": "Images/yala.jpg",
+      "title": "Leopard Safari in Yala National Park",
+      "subtitle": "Kingdom of leopards.",
+      "description": "Explore the renowned Yala National Park, home to one of the highest densities of leopards in the world. Embark on thrilling safaris to witness these elusive big cats, along with a myriadof other wildlife, against the backdrop of diverse ecosystems.",
+      "prices": [
+        { "text": "USD 45 per person (half day)" },
+        { "text": "USD 75 per person (full day)" }
+      ],
+      "button": {
+        "text": "Book now",
+        "url": "https://www.yalasrilanka.lk/yala-safari-ride"
+      }
+    },
+    {
+      "image": "Images/udawalawa.jpg",
+      "title": "Elephant Watching in Udawalawe National park",
+      "subtitle": "Heaven for Elephant",
+      "description": "Immerse yourself in the wonders of Udawalawe National Park, a haven for elephants.Join safari excursions to observe these majestic creatures in their natural habitat, surrounded by lush landscapes, water reservoirs, and a variety of bird species.",
+      "prices": "$25 per adult and $15 per child (under 6 are free)",
+      "button": {
+        "text": "Book now",
+        "url": "https://flashpackingfamily.com/udawalawe-national-park-safari-with-kids/"
+      }
+    },
+    {
+      "image": "Images/mirissa.jpg",
+      "title": "Marine eco lagoon Safari in Mirissa Sea",
+      "subtitle": "Dolphins to see",
+      "description": "Extend your wildlife holiday to the seas with a marine safari off the coast of Mirissa. Join whale watching excursions to spot majestic blue whales, sperm whales, and playfuldolphins, offering a unique and unforgettable marine wildlife experience.",
+      "prices": "LKR 5000 to LKR 10000",
+      "button": {
+        "text": "Book now",
+        "url": "https://www.whale-watching-mirissa.com/"
+      }
+    }
+  ]
+}

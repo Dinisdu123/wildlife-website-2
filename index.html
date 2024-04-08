@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri lanka wildlife</title>
+    <link rel="stylesheet" href="home.css" />
+    <script src="index.js" defer></script>
+    <script src="newletter.js" defer></script>
+    <script src="user.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="introduction.html">Introduction</a>
+        <a href="dwc.html">Department</a>
+        <a href="leophanrd.html">SL leophard</a>
+        <a href="animals.html">Animals </a>
+       <button class="login-btn">Login</button>
+      </nav>
+    </header>
+    <main>
+      <div class="image-container">
+        <img src="Images/Wildlife-header.jpg" alt="Main image" id="main_img" />
+        <div class="text-container">
+          <h3>
+            Welcome to <br />
+            Sri Lanka wildlife
+          </h3>
+        </div>
+      </div>
+    </main>
+    <div class="intro">
+      <h1 id="introH1"></h1>
+      <p id="introParagraph"></p>
+    </div>
+    <br />
+    <div class="home">
+      <h1 id="whySl_h"></h1>
+      <p id="whySl_p"></p>
+      <hr />
+      <div class="flex-container">
+        <div class="flex-item">
+          <img id="yalaImg" width="100%" height="30%" />
+          <h2 id="yala_title"></h2>
+          <h3 id="yala_subtitle"></h3>
+          <p id="yala_para"></p>
+          <ul>
+            <li>USD 45 per person (half day)</li>
+            <li>USD 75 per person (full day)</li>
+          </ul>
+          <a
+            href="https://www.yalasrilanka.lk/yala-safari-ride"
+            id="button"
+            target="_blank"
+            class="yala_button"
+            >Book now</a
+          >
+        </div>
+        <div class="flex-item">
+          <img
+            id="udawalawaImg"
+            alt="udawalawa safari"
+            height="30%"
+            width="100%"
+          />
+          <h2 id="udawalawa_title"></h2>
+          <h3 id="udawalawa_subtitle"></h3>
+          <p id="udawalawa_para"></p>
+          <h4 id="udawalawa_price"></h4>
+          <a
+            href="https://flashpackingfamily.com/udawalawe-national-park-safari-with-kids/"
+            id="button"
+            target="_blank"
+            class="udawalawa_button"
+            >Book now</a
+          >
+        </div>
+        <div class="flex-item">
+          <img id="mirissaImg" alt="mirissa safari" height="30%" width="100%" />
+          <h2 id="mirissa_title"></h2>
+          <h3 id="mirissa_subtitle"></h3>
+          <p id="mirissa_para"></p>
+          <h4 id="mirissa_price"></h4>
+          <a
+            href="https://www.whale-watching-mirissa.com/"
+            id="button"
+            target="_blank"
+            class="mirissa_button"
+            >Book now</a
+          >
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="dwc.html">Department </a></li>
+            <li><a href="leophanrd,html">Leophard</a></li>
+            <li><a href="animals.html">Animals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr "
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr "
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr "
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Learn More on</h3>
+          <p>
+            <a
+              href="https://www.wildlifetourssrilanka.com/wildlife/wildlife-in-sri-lanka.html"
+              >Wildlife Tours</a
+            >
+          </p>
+        </div>
+        <div class="Newsletter">
+          <h3>Newsletter</h3>
+          <form
+            action="submit_newsletter.php"
+            method="post"
+            id="NewsletterForm"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" id="subB">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Your Wildlife Adventure. All rights reserved!!. Designed
+            by CB011679
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

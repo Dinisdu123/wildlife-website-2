@@ -1,0 +1,32 @@
+{
+  "main_img": {
+    "src": "Images/Entrance_Sign_-_Yala_NP_20190705073422.jpg",
+    "alt": "Image of Yala"
+  },
+  "sections": [
+    {
+      "title": "What to Do",
+      "image": "Images/Yala page header.png",
+      "description": "Visiting Yala is like stepping into a wild adventure! Start by going on a safari in Yala National Park to see cool animals like leopards and elephants. Don't forget your camera! You can also check out an ancient place called Sithulpawwa Rock Temple with old carvings and caves. Meet the friendly locals, watch traditional dances, and see how they live. Take a walk on the pretty beaches, like Kirinda Beach, and maybe climb Elephant Rock for awesome views. If you love birds, go to Bundala National Park for some amazing bird watching. And when it's time to rest, stay in eco-friendly places that care about nature. Yala is full of fun things to do, so get ready for a fantastic trip!"
+    },
+    {
+      "title": "About Yala",
+      "image": "Images/yala elephant.jpg",
+      "subSections": [
+        {
+          "title": "History of Yala",
+          "description": "Established in 1938, Yala National Park in Sri Lanka has a rich history as the second oldest national park in the country. Its roots as a wildlife sanctuary date back to 1900, showcasing a commitment to conservation. Beyond its natural significance, Yala features the  ancient Sithulpawwa Rock Temple, offering a historical glimpse. Today, the park is celebrated for its biodiversity, particularly in the conservation of the endangered Sri Lankan leopard, making it a captivating destination for wildlife enthusiasts and history seekers alike."
+        },
+        {
+          "title": "How Popular is Yala Now",
+          "description": "Yala National Park stands as a highly popular destination in tourism, renowned for its exceptional biodiversity and captivating wildlife experiences. Drawing visitors from around the globe, the park's allure lies in the chance to witness the majestic Sri Lankan leopard, alongside a plethora of other unique flora and fauna. With its diverse landscapes, ancient cultural sites, and a commitment to sustainable eco-tourism, Yala continues to capture the fascination of travelers seeking an immersive and unforgettable encounter with nature in the heart of Sri Lanka."
+        }
+      ]
+    },
+    {
+      "title": "Plan Your Trip",
+      "description": "Embarking on a journey to Yala promises an unforgettable adventure amidst the wonders of nature. Begin your trip by securing accommodations in one of the eco-friendly resorts that blend seamlessly with the surrounding landscapes. The Yala National Park, a sanctuary for diverse wildlife, awaits exploration, and a well-guided safari is a must to witness leopards, elephants, and an array of bird species in their natural habitat. Plan your visits during the optimal wildlife viewing seasons, usually from February to June and July to September, tomaximize your chances of encountering the park's inhabitants.",
+      "description_2": "Immerse yourself in the local culture by trying traditional dishes at nearby eateries or joining cultural events that showcase the region's heritage. Don't forget to explore the pristine beaches and engage in outdoor activities like bird watching or hiking. Lastly, contribute to the conservation efforts by adhering to sustainable travel practices, ensuring that Yala's natural beauty endures for generations to come. Whether you seek wildlife encounters, cultural experiences , or moments of tranquility, Yala offers a tapestry of experiences that will make your journey truly extraordinary."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "introduction": {
+    "name": "Department of Wildlife Conservation",
+    "description_01": "The Sri Lankan Department of Wildlife Conservation serves as a vital custodian of the country's ecological wealth, embracing the responsibility to safeguard its diverse flora and fauna. Established with a vision of preserving the natural heritage of Sri Lanka, the department orchestrates strategic initiatives to maintain the delicate equilibrium between human activities and the thriving ecosystems that define the island. Through the creation and management of national parks and reserves, the department endeavors to provide sanctuaries where indigenous species can flourish in their natural habitats.",
+    "description_02": "Driven by a commitment to environmental sustainability, the department is not only a guardian of wildlife but also a beacon for research and education. Conducting scientific studies on the island's unique ecosystems, it seeks to deepen our understanding of local biodiversity. Concurrently, the department engages in educational outreach to foster awareness and instill a sense of responsibility for the conservation of Sri Lanka's natural treasures. In its multifaceted role, the Sri Lankan Department of Wildlife Conservation embodies a dedication to preserving the nation's ecological legacy for present and future generations."
+  },
+  "title": "Gallery of Protected Areas",
+  "protected_areas": [
+    {
+      "name": "Maduruoya",
+      "image": "Images/Maduru_Oya_a_view_near_dam.jpg"
+    },
+    {
+      "name": "Wilpattuwa",
+      "image": "Images/wilpattu.jpg"
+    },
+    {
+      "name": "Minneriya",
+      "image": "Images/minneriya_2.jpg"
+    },
+    {
+      "name": "Udawalawe",
+      "image": "Images/udawalawa_2.jpg"
+    },
+    {
+      "name": "Galoya",
+      "image": "Images/galoya.jpg"
+    },
+    {
+      "name": "Yala",
+      "image": "Images/Yala_2.jpg"
+    }
+  ],
+  "location": {
+    "title": "Google Location/Map",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63374.316886928624!2d79.85312295285311!3d6.903181882520776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1704870041028!5m2!1sen!2slk"
+  }
+}

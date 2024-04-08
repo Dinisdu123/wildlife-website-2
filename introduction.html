@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri lanka wildlife</title>
+    <link rel="stylesheet" href="home.css" />
+    <script src="introduction.js" defer></script>
+    <script src="newletter.js" defer></script>
+    <link rel="icon" href="Images/logo-fotor-bg-remover-20231222113543.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="introduction.html" class="active">Introduction</a>
+        <a href="dwc.html">Department</a>
+        <a href="leophanrd.html">SL leophard</a>
+        <a href="animals.html">Animals </a>
+        <button class="login-btn">Login</button>
+      </nav>
+    </header>
+    <h1 id="MainHead"></h1>
+    <div class="sinharaja">
+      <h2 id="subtitle_1"></h2>
+      <div class="sinharaja_flex">
+        <img
+          id="img_1"
+          src="Images/sinharaja.jpg"
+          alt="sinharaja forest image"
+        />
+        <p id="para_1"></p>
+        <br />
+      </div>
+      <br />
+    </div>
+    <iframe
+      id="map_1"
+      width="100%"
+      height="450"
+      style="border: 3px"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <div class="horton">
+      <h2 id="subtitle_2"></h2>
+      <div class="horton_flex">
+        <p id="para_2"></p>
+        <img id="img_2" alt="horton plains image" />
+      </div>
+      <br />
+    </div>
+    <iframe
+      id="map_2"
+      width="100%"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <div class="minneriya">
+      <h2 id="subtitle_3"></h2>
+      <div class="minneriya_flex">
+        <img id="img_3" alt="minneriya national park image" />
+        <p id="para_3"></p>
+      </div>
+      <br />
+    </div>
+    <iframe
+      id="map_3"
+      width="100%"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <h2 class="tableheader">Here is a summary table :</h2>
+    <div class="table">
+      <table border="2px">
+        <tr>
+          <th>locations</th>
+          <th>Intersting facts</th>
+          <th>Image</th>
+        </tr>
+        <tr>
+          <td>Yala National Park</td>
+          <td>Home to the highest leopard density in the world.</td>
+          <td><img src="Images/leophard.jpg" id="image_n" /></td>
+        </tr>
+        <tr>
+          <td>Wilpattu National Park</td>
+          <td>The largest national park in Sri Lanka.</td>
+          <td><img src="Images/jungke fowl.jpg" id="image_n" /></td>
+        </tr>
+        <tr>
+          <td>Horton Plains National Park</td>
+          <td>UNESCO World Heritage Site.</td>
+          <td><img src="Images/koha.jpeg" id="image_n" /></td>
+        </tr>
+        <tr>
+          <td>Sinharaja Forest Reserve</td>
+          <td>Biodiversity hotspot with numerous endemic species</td>
+          <td><img src="Images/blue.jpeg" id="image_n" /></td>
+        </tr>
+        <tr>
+          <td>Minneriya National Park</td>
+          <td>Famous for the Elephant Gathering during the dry season.</td>
+          <td><img src="Images/elephant.jpg" id="image_n" /></td>
+        </tr>
+        <tfoot>
+          <tr>
+            <td colspan="3">&#169; Sri lankan wildlife</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <br />
+    <hr />
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="dwc.html">Department </a></li>
+            <li><a href="leophanrd,html">Leophard</a></li>
+            <li><a href="animals.html">Animals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr "
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr "
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr "
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Learn More on</h3>
+          <p>
+            <a
+              href="https://www.wildlifetourssrilanka.com/wildlife/wildlife-in-sri-lanka.html"
+              >Wildlife Tours</a
+            >
+          </p>
+        </div>
+
+        <div class="Newsletter">
+          <h3>Newsletter</h3>
+          <form
+            action="submit_newsletter.php"
+            method="post"
+            id="NewsletterForm"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" id="subB">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Your Wildlife Adventure. All rights reserved!!. Designed
+            by CB011679
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
